@@ -57,5 +57,13 @@ A modern, responsive **clothing e-commerce frontend** built with **React + Vite*
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/manish25Coder/comfortwearclothing.git
+cd comfortwear
+
+npm install
+npm run build
 
