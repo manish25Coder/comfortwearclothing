@@ -1,16 +1,61 @@
 # React + Vite
+# 🛍️ ComfortWear – Modern Clothing Store (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **clothing e-commerce frontend** built with **React + Vite**, featuring product filtering, cart management, invoice generation, and a smooth checkout experience.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:**  
+👉 https://comfortwearclothing.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🛒 **Shopping Cart Sidebar**
+  - Add / remove products
+  - Increase & decrease quantity
+  - Live price updates
+  - GST (18%) calculation
 
-## Expanding the ESLint configuration
+- 🧾 **Invoice Generation**
+  - Auto-generated PDF invoice
+  - Includes item list, subtotal, GST, and total
+  - Downloaded instantly on checkout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ **Order Success Flow**
+  - Order success modal
+  - Cart auto-clears after checkout
+
+- 🔍 **Product Search**
+  - Search by product name & description
+
+- 🎯 **Advanced Filters**
+  - Filter by category (Men / Women)
+  - Sort by:
+    - Featured
+    - Price: Low → High
+    - Price: High → Low
+    - Highest Rated
+
+- 📱 **Fully Responsive UI**
+  - Desktop, tablet & mobile friendly
+
+- 🎨 **Modern UI**
+  - Tailwind CSS
+  - Smooth animations
+  - Clean card-based layout
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- **Frontend:** React 18
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide Icons
+- **PDF Generation:** jsPDF
+- **Deployment:** Netlify
+
+---
+
+## 📂 Project Structure
+
